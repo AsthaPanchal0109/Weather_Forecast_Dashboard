@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="apps.js" defer></script>
+</head>
+<body>
+    <header>
+        <form class="weatherForm">
+            <label for="cityInput">Search for a city:-</label>
+            <input type="text" id="cityInput" class="cityInput" placeholder="Enter Location" name="city">
+            <button type="submit">Search</button>
+        </form>
+        <output class="statusMessage" aria-live="polite"></output>
+    </header>   
+
+    <main>
+        <section class="current-weather">
+            <div class="hor-container">
+                <div class="cityOutput">
+                    <h1 class="cityName">Mumbai</h1>
+                    <p class="currentDay">Monday</p>
+                    <p class="currentDate">5 October 2026</p>
+                    <p class="cityTemp">29℃</p>
+                    <p class="cityHumidity">Humidity: 62%</p>
+                    <p class="windSpeed">Wind Speed:12 km/hr </p>
+                    <p class="weatherDesc">Clear Sky ☀️</p>
+                    <!-- <p class="weatherIcon"></p> -->
+                    <p class="feelsLike">Feels Like: 31℃</p>
+                </div>
+            </div>
+        </section>    
+
+        <section class="forecast">
+            <div class="placard-container">
+                <div class="placard">
+                    <div class="placardContent">
+                        <h3 class="forecastDay">Tuesday</h3>
+                        <h3 class="forecastDate">6 October 2026</h3>
+                        <!-- <p class="forecastIcon">🌤️</p> -->
+                        <p class="minTemp">Min Temp: 28℃</p>
+                        <p class="maxTemp">Max Temp: 31℃</p>
+                        <p class="forecastCond">Partly Cloudy 🌤️</p>
+                    </div>
+                </div>
+
+                <div class="placard">
+                    <div class="placardContent">
+                        <h3 class="forecastDay">Wednesday</h3>
+                        <h3 class="forecastDate">7 October 2026</h3>
+                        <!-- <p class="forecastIcon">🌤️</p> -->
+                        <p class="minTemp">Min Temp: 28℃</p>
+                        <p class="maxTemp">Max Temp: 31℃</p>
+                        <p class="forecastCond">Partly Cloudy 🌤️</p>
+                    </div>
+                </div>
+
+                <div class="placard">
+                    <div class="placardContent">
+                        <h3 class="forecastDay">Thursday</h3>
+                        <h3 class="forecastDate">8 October 2026</h3>
+                        <!-- <p class="forecastIcon">🌤️</p> -->
+                        <p class="minTemp">Min Temp: 28℃</p>
+                        <p class="maxTemp">Max Temp: 31℃</p>
+                        <p class="forecastCond">Partly Cloudy 🌤️</p>
+                    </div>
+                </div>    
+
+                <div class="placard">
+                    <div class="placardContent">
+                        <h3 class="forecastDay">Friday</h3>
+                        <h3 class="forecastDate">9 October 2026</h3>
+                        <!-- <p class="forecastIcon">🌤️</p> -->
+                        <p class="minTemp">Min Temp: 28℃</p>
+                        <p class="maxTemp">Max Temp: 31℃</p>
+                        <p class="forecastCond">Partly Cloudy 🌤️</p>
+                    </div>
+                </div>    
+
+                <div class="placard">
+                    <div class="placardContent">
+                        <h3 class="forecastDay">Saturday</h3>
+                        <h3 class="forecastDate">10 October 2026</h3>
+                        <!-- <p class="forecastIcon">🌤️</p> -->
+                        <p class="minTemp">Min Temp: 28℃</p>
+                        <p class="maxTemp">Max Temp: 31℃</p>
+                        <p class="forecastCond">Partly Cloudy 🌤️</p>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </main>
+
+</body>
+</html>
